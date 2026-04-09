@@ -51,7 +51,7 @@ def main():
         random.shuffle(image_names)
 
         enrollment_img = image_names[0]
-        n_genuine = random.choice([2, 3])
+        n_genuine = random.choice([4, 5])
         genuine_imgs = image_names[1:1 + n_genuine]
         impostor_imgs = image_names[1 + n_genuine:]
 
