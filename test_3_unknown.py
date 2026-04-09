@@ -23,7 +23,7 @@ print(f"Sampled {len(sample)} unknown-user images")
 
 # Pick a random enrolled identity to claim (worst-case FPR scenario)
 with open("data/splits.csv") as f:
-    enrolled_ids = list({r["identity"] for r in csv.DictReader(f) if r["identity_type"] == "enrolled"})
+    enrolled_ids = list({int(r["identity"]) if r["identity"].isdigit() else r["identity"] for r in csv.DictReader(f) if r["identity_type"] == "enrolled"})
 
 random.seed(SEED)
 
