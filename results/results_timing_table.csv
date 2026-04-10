@@ -1,0 +1,4 @@
+operation,mean_s,median_s,min_s,max_s
+enrollment,1.0016,0.3029,0.2776,14.3124
+verification_1_to_1,0.1903,0.206,0.0169,0.223
+identification_1_to_n,0.1893,0.2045,0.0179,0.2257
