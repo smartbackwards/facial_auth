@@ -1,0 +1,5 @@
+split,image_count,identity_count
+enrollment,80,80
+genuine_test,359,80
+impostor_pool,1475,80
+unknown_user,457,20

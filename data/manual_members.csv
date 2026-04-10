@@ -1,0 +1,4 @@
+initials,full_name,identity,enroll_image,genuine_image,impostor_image
+tr,Bartosz Trams,90001,test_photos/tr1.jpg,test_photos/tr2.jpg,test_photos/tr3.jpg
+bm,Bartosz Mila,90002,test_photos/bm1.jpg,test_photos/bm2.jpg,test_photos/bm3.jpg
+ks,Krzysztof Szydlowski,90003,test_photos/ks1.jpg,test_photos/ks2.jpg,test_photos/ks3.jpg

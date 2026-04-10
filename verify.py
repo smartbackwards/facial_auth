@@ -7,9 +7,17 @@ DB_PATH = "database/embeddings.pkl"
 def cosine_similarity(a, b):
     return np.dot(a, b) / (np.linalg.norm(a) * np.linalg.norm(b))
 
+_db_cache = None
+
+def load_db():
+    global _db_cache
+    if _db_cache is None:
+        with open(DB_PATH, "rb") as f:
+            _db_cache = pickle.load(f)
+    return _db_cache
+
 def verify(image_path, claimed_id, threshold=0.5):
-    with open(DB_PATH, "rb") as f:
-        db = pickle.load(f)
+    db = load_db()
     if claimed_id not in db:
         return False, 0.0
     query_emb = get_embedding(image_path)

@@ -78,22 +78,22 @@ embedding = get_embedding("path/to/photo.jpg")  # returns np.array of shape (512
 
 ## Tests
 
-| # | Test | Owner |
-|---|------|-------|
-| 1 | Baseline accuracy (500 images) | Krzysiek |
-| 2 | Unknown users (+ 100 non-enrolled) | Bartek |
-| 3 | Noise robustness (5 PSNR bands) | Person A |
-| 4 | Luminance changes | Bartek |
-| 5 | Enrollment & verification timing | Krzysiek |
-| 6 | FAR/FRR vs threshold, ROC curve | Krzysiek |
-| 7 | JPEG compression (3 quality levels) | Person A |
+| # | Test |
+|---|------|
+| 1 | Baseline accuracy (500 images) |
+| 2 | FAR/FRR vs threshold, ROC curve |
+| 3 | Unknown users (+ 100 non-enrolled) | 
+| 4 | Noise robustness (5 PSNR bands) |
+| 5 | Luminance changes |
+| 6 | Enrollment & verification timing | 
+| 7 | JPEG compression (3 quality levels) |
 
 ---
 
 ## Authors
 
-| Name | Index | Lab slot |
-|------|-------|----------|
-| Bartek Trams | 268421 | — |
-| Bartek Mila | — | — |
-| Krzysiek Szydlowski | — | — |
+| Name | Index |
+|------|-------|
+| Bartek Trams | 268421 |
+| Bartek Mila | — |
+| Krzysiek Szydlowski | — |

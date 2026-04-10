@@ -2370,3 +2370,12 @@ image_name,image_path,identity,split,identity_type
 139919.jpg,celeba_subset/img_align_celeba/139919.jpg,9534,unknown_user,unknown
 149162.jpg,celeba_subset/img_align_celeba/149162.jpg,9534,unknown_user,unknown
 159052.jpg,celeba_subset/img_align_celeba/159052.jpg,9534,unknown_user,unknown
+tr1.jpg,test_photos/tr1.jpg,90001,enrollment,enrolled
+tr2.jpg,test_photos/tr2.jpg,90001,genuine_test,enrolled
+tr3.jpg,test_photos/tr3.jpg,90001,impostor_pool,enrolled
+bm1.jpg,test_photos/bm1.jpg,90002,enrollment,enrolled
+bm2.jpg,test_photos/bm2.jpg,90002,genuine_test,enrolled
+bm3.jpg,test_photos/bm3.jpg,90002,impostor_pool,enrolled
+ks1.jpg,test_photos/ks1.jpg,90003,enrollment,enrolled
+ks2.jpg,test_photos/ks2.jpg,90003,genuine_test,enrolled
+ks3.jpg,test_photos/ks3.jpg,90003,impostor_pool,enrolled

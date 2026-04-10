@@ -39,7 +39,7 @@ def get_embedding(image_path):
     result = DeepFace.represent(
         img_path=image_path,
         model_name="ArcFace",
-        detector_backend="retinaface",
+        detector_backend="opencv",
         enforce_detection=True
     )
     return np.array(result[0]["embedding"])

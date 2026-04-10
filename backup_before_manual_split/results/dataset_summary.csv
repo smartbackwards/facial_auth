@@ -1,0 +1,16 @@
+metric,value
+enrolled_identities_declared,80
+unknown_identities_declared,20
+db_profiles_total,81
+db_profiles_manual_named,1
+split_enrollment_images,80
+split_genuine_test_images,359
+split_impostor_pool_images,1475
+split_unknown_user_images,457
+split_enrollment_identities,80
+split_genuine_test_identities,80
+split_impostor_pool_identities,80
+split_unknown_user_identities,20
+test500_total_attempts,500
+test500_genuine_attempts,250
+test500_impostor_attempts,250

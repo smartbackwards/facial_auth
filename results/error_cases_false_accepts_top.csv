@@ -1,0 +1,6 @@
+index,image_name,image_path,true_identity,claimed_identity,attempt_type,score,threshold,predicted_match,enrollment_image_path
+191,178457.jpg,celeba_subset/img_align_celeba/178457.jpg,4069,5872,impostor,0.3869823232114852,0.1443,1,celeba_subset/img_align_celeba/190011.jpg
+132,086203.jpg,celeba_subset/img_align_celeba/086203.jpg,644,1149,impostor,0.3491855184330618,0.1443,1,celeba_subset/img_align_celeba/032759.jpg
+402,193173.jpg,celeba_subset/img_align_celeba/193173.jpg,8415,9828,impostor,0.24925894510322183,0.1443,1,celeba_subset/img_align_celeba/033658.jpg
+114,010594.jpg,celeba_subset/img_align_celeba/010594.jpg,7222,7253,impostor,0.2459117026074949,0.1443,1,celeba_subset/img_align_celeba/041303.jpg
+505,ks3.jpg,test_photos/ks3.jpg,90003,90001,impostor,0.24353667696781808,0.1443,1,test_photos/tr1.jpg
