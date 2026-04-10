@@ -6,7 +6,7 @@ from tqdm import tqdm
 from verify import verify
 from metrics import compute_FAR, compute_FRR
 
-THRESHOLD = 0.144
+THRESHOLD = 0.1443
 os.makedirs("results", exist_ok=True)
 
 with open("data/test_500.csv") as f:

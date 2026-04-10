@@ -8,7 +8,7 @@ import enroll as enroll_module
 from enroll import enroll, get_embedding
 from verify import verify, cosine_similarity
 
-THRESHOLD = 0.144
+THRESHOLD = 0.1443
 N_ENROLL = 20
 N_VERIFY = 100
 N_IDENTIFY = 100

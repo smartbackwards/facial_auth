@@ -6,7 +6,7 @@ from tqdm import tqdm
 from verify import verify
 from metrics import compute_FAR, compute_FRR
 
-THRESHOLD = 0.144
+THRESHOLD = 0.1443
 JPEG_QUALITIES = [95, 75, 50, 35, 20]
 os.makedirs("results", exist_ok=True)
 

@@ -7,7 +7,7 @@ from tqdm import tqdm
 from verify import verify
 from metrics import compute_FAR, compute_FRR
 
-THRESHOLD = 0.144
+THRESHOLD = 0.1443
 N_PER_BAND = 300
 SEED = 42
 os.makedirs("results", exist_ok=True)

@@ -1,7 +1,7 @@
 import numpy as np
 from metrics import compute_FAR, compute_FRR
 
-THRESHOLD = 0.144  # EER threshold from test_2_roc.py
+THRESHOLD = 0.1443
 
 data = np.loadtxt("results/baseline_scores.csv", delimiter=",", skiprows=1)
 scores = data[:, 0]

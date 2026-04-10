@@ -1,0 +1,4 @@
+set_name,threshold,sample_count,impostor_count,far
+baseline_500,0.1443,506,253,0.12648221343873517
+unknown_only,0.1443,100,100,0.13
+baseline_plus_unknown,0.1443,606,353,0.1274787535410765

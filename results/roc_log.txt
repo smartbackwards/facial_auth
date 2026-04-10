@@ -1,0 +1,6 @@
+EER:       0.1265 (12.65%)
+Threshold: 0.1443
+  FAR at EER: 0.1265
+  FRR at EER: 0.1265
+Saved results/far_frr_vs_threshold.png
+Saved results/roc_curve.png

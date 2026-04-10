@@ -499,3 +499,9 @@ image_name,image_path,identity,split,identity_type,claimed_identity,attempt_type
 081803.jpg,celeba_subset/img_align_celeba/081803.jpg,8091,impostor_pool,enrolled,6277,impostor
 193681.jpg,celeba_subset/img_align_celeba/193681.jpg,7088,impostor_pool,enrolled,5437,impostor
 193087.jpg,celeba_subset/img_align_celeba/193087.jpg,5872,genuine_test,enrolled,5872,genuine
+tr2.jpg,test_photos/tr2.jpg,90001,genuine_test,enrolled,90001,genuine
+tr3.jpg,test_photos/tr3.jpg,90001,impostor_pool,enrolled,90002,impostor
+bm2.jpg,test_photos/bm2.jpg,90002,genuine_test,enrolled,90002,genuine
+bm3.jpg,test_photos/bm3.jpg,90002,impostor_pool,enrolled,90003,impostor
+ks2.jpg,test_photos/ks2.jpg,90003,genuine_test,enrolled,90003,genuine
+ks3.jpg,test_photos/ks3.jpg,90003,impostor_pool,enrolled,90001,impostor

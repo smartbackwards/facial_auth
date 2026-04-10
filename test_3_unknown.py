@@ -8,7 +8,7 @@ import os
 
 os.makedirs("results", exist_ok=True)
 
-THRESHOLD = 0.144        # replace with EER threshold from test_2_roc.py
+THRESHOLD = 0.1443
 N_UNKNOWN = 100
 SEED = 42
 
